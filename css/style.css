@@ -1,0 +1,99 @@
+body {
+    background: linear-gradient(to right, #00c6ff, #00b09b); /* Define o degradê de fundo */
+    font-family: sans-serif;
+    text-align: center;
+    color: #fff; /* Define a cor do texto para branco */
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 36px; /* Define o tamanho do título */
+    padding: 20px 0; /* Adiciona espaçamento em volta do título */
+  }
+  
+  .config {
+    margin-bottom: 20px;
+    display: flex; /* Define o layout flexbox para elementos dentro de .config */
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    align-items: center; /* Centraliza os elementos horizontalmente */
+    width: 300px; /* Define a largura da caixa */
+    margin: 0 auto; /* Centraliza a caixa horizontalmente */
+    padding: 20px; /* Adiciona espaçamento interno */
+    background-color: rgba(0, 0, 0, 0.5); /* Adiciona um fundo transparente com cor escura */
+    border-radius: 10px; /* Arredonda as bordas da caixa */
+  }
+  
+  label {
+    color: #fff;
+    margin-bottom: 5px; /* Adiciona espaçamento abaixo das labels */
+  }
+  
+  input[type="text"],
+  select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2); /* Fundo levemente branco */
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  button {
+    background-color: #00b09b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transição para efeito hover */
+  }
+  
+  button:hover {
+    background-color: #00a08b;
+  }
+  
+  .mensagem {
+    border: 1px solid #fff; /* Usa branco para a borda */
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo transparente com cor escura */
+    border-radius: 10px;
+  }
+  
+  .mensagem p {
+    color: #fff;
+  }
+
+  .intro {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo transparente com cor escura */
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .intro p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+  }
+
+  /* ... (seu CSS anterior) ... */
+
+button#salvar {
+    /* ... (outros estilos do botão) ... */
+    animation: piscar 1s linear infinite; /* Adiciona a animação de piscar */
+  }
+  
+  @keyframes piscar {
+    0% {
+      opacity: 1; /* Opacidade total no início da animação */
+    }
+    50% {
+      opacity: 0.5; /* Opacidade reduzida no meio da animação */
+    }
+    100% {
+      opacity: 1; /* Opacidade total no final da animação */
+    }
+  }
