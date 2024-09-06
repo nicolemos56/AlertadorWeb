@@ -97,3 +97,15 @@ button#salvar {
       opacity: 1; /* Opacidade total no final da animação */
     }
   }
+
+  /* ... (seu CSS anterior) ... */
+
+footer {
+  background-color: #00b09b; /* Cor de fundo do footer */
+  color: #fff; /* Cor do texto do footer */
+  text-align: center;
+  padding: 15px 0;
+  position: fixed; /* Fixa o footer na parte inferior da tela */
+  bottom: 0; /* Posiciona o footer na parte inferior */
+  width: 100%; /* Largura total da tela */
+}
