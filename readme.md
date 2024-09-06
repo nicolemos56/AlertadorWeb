@@ -1,8 +1,12 @@
 # Alertador Web
 
 ## Descrição
+JÁ IMAGINOU? Numa sexta-feira um app que te mande uma notificação com o texto:
+"SE BEBER NÃO CONDUZA, E SE CONDUZIR NÃO BEBA!"
 
-Alertador Web é um aplicativo web simples que exibe mensagens de alerta personalizadas para o usuário. Ele permite que o usuário configure seu nome e o período do dia em que deseja receber os alertas. As mensagens são exibidas na tela e, opcionalmente.
+ISSO MESMO!
+
+Alertador Web é um aplicativo web simples que exibe mensagens de alerta personalizadas para o usuário. Ele permite que o usuário configure seu nome e o período do dia em que deseja receber os alertas. As mensagens são exibidas na tela.
 
 ## Recursos
 
