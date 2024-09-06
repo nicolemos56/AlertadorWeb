@@ -14,7 +14,7 @@ body {
   }
   
   .config {
-    margin-bottom: 20px;
+
     display: flex; /* Define o layout flexbox para elementos dentro de .config */
     flex-direction: column; /* Empilha os elementos verticalmente */
     align-items: center; /* Centraliza os elementos horizontalmente */
@@ -23,6 +23,7 @@ body {
     padding: 20px; /* Adiciona espaçamento interno */
     background-color: rgba(0, 0, 0, 0.5); /* Adiciona um fundo transparente com cor escura */
     border-radius: 10px; /* Arredonda as bordas da caixa */
+    margin-bottom: 20px; /* Ajuste o valor conforme necessário */
   }
   
   label {
@@ -98,8 +99,6 @@ button#salvar {
     }
   }
 
-  /* ... (seu CSS anterior) ... */
-
 footer {
   background-color: #00b3ab00; /* Cor de fundo do footer */
   color: #fff; /* Cor do texto do footer */
@@ -108,5 +107,12 @@ footer {
   position: fixed; /* Fixa o footer na parte inferior da tela */
   bottom: 0; /* Posiciona o footer na parte inferior */
   width: 100%; /* Largura total da tela */
- 
+ position: relative; /* Retire a propriedade 'fixed' */
+  bottom: 0; /* Retire a propriedade 'bottom' */
+  padding-bottom: 20px; /* Adicione um padding-bottom ao footer */
+  margin-top: 20px; /* Adicione uma margem superior ao footer */
 }
+footer > p {
+  margin-top: 66px;
+}
+
