@@ -22,28 +22,32 @@ let periodoEscolhido = '';
 // Base de mensagens
 const mensagens = {
     manha: [
-        "{nome}, preste atenção ao que você fala hoje, suas palavras podem ter um impacto maior do que imagina.",
-        "Comece o dia com cuidado, {nome}. Não deixe que a pressa te leve a tomar decisões precipitadas.",
-        "Observe os sinais que o universo te envia, {nome}. Eles podem te guiar para um caminho melhor.",
-        "{nome}, preste atenção ao que você fala hoje, suas palavras podem ter um impacto maior do que imagina.",
-        "Comece o dia com cuidado, {nome}. Não deixe que a pressa te leve a tomar decisões precipitadas.",
-        "Observe os sinais que o universo te envia, {nome}. Eles podem te guiar para um caminho melhor.",
-        "{nome}, Se beber, não dirija! Se dirigir, não beba!", // Adicionando a frase
-        "Mantenha o foco, {nome}. Distrações podem te levar a erros e acidentes."
+        "{nome}, comece o dia com positividade! Lembre-se de seus objetivos e faça o seu melhor.",
+        "Cuidado com a pressa, {nome}. Tome decisões com calma e atenção, especialmente no trânsito.",
+        "{nome}, não se esqueça de se alimentar bem! Uma refeição nutritiva te dará energia para o dia.",
+        "{nome}, preste atenção aos sinais do seu corpo! Se precisar de descanso, não hesite em tirar um tempo para si.",
+        "Seja gentil com você mesmo, {nome}. Comece o dia com pensamentos positivos e autocuidado.",
+        "Lembre-se de seus sonhos, {nome}. O que você quer realizar hoje? Vá em frente e persiga seus objetivos.",
+        "{nome}, pratique a gratidão! Agradeça pelas pequenas coisas e comece o dia com uma mentalidade positiva.",
+        "Se beber, não dirija! Se dirigir, não beba! {nome}, a sua segurança é prioridade.",
+        "Mantenha o foco, {nome}. Distrações podem te levar a erros e acidentes. "
     ],
     tarde: [
+        "{nome}, não se esqueça de se hidratar! Beba bastante água para manter a energia e a concentração.",
+        "Cuidado com o estresse, {nome}. Reserve um tempo para relaxar e fazer algo que você gosta.",
+        "{nome}, evite o excesso de cafeína. Ela pode te deixar ansioso e prejudicar seu sono.",
+        "Seja paciente, {nome}. As coisas boas levam tempo e esforço. Não desista dos seus objetivos!",
+        "Lembre-se de respirar fundo, {nome}. A respiração profunda pode te ajudar a relaxar e a reduzir o estresse.",
+        "Tenha cuidado com o que você compartilha online, {nome}. A internet nunca esquece. Pense antes de postar.",
         "Cuidado com os seus pensamentos, {nome}. Eles podem influenciar suas ações e te levar para um caminho indesejado.",
         "{nome}, não se esqueça de reservar um tempo para descansar. O estresse pode te levar a cometer erros.",
-        "A pressa é inimiga da perfeição, {nome}. Dê um passo de cada vez e evite frustrações.", "Cuidado com os seus pensamentos, {nome}. Eles podem influenciar suas ações e te levar para um caminho indesejado.",
-        "{nome}, não se esqueça de reservar um tempo para descansar. O estresse pode te levar a cometer erros.",
         "A pressa é inimiga da perfeição, {nome}. Dê um passo de cada vez e evite frustrações.",
-        "Tenha cuidado com o que você compartilha online, {nome}. A internet nunca esquece."
+        "Seja paciente, {nome}. As coisas boas levam tempo e esforço. Não desista dos seus objetivos!"
     ],
     noite: [
-        "{nome}, antes de dormir, reflita sobre o seu dia. Identifique o que pode ser melhorado e aprenda com os seus erros.",
-        "Lembre-se de seus sonhos, {nome}, mas não se esqueça da realidade. Mantenha os pés no chão.",
-        "Evite se envolver em conversas negativas, {nome}. Deixe que a positividade te envolva.",
-        "{nome}, não se esqueça de desligar o celular antes de dormir. O excesso de tela pode prejudicar seu sono.",
+        "{nome}, desligue-se das telas pelo menos uma hora antes de dormir. Isso te ajudará a ter um sono mais tranquilo.",
+        "Lembre-se de seus sonhos, {nome}. O que você quer realizar? Anote seus objetivos e planeje seus próximos passos.",
+        "Evite se envolver em conversas negativas, {nome}. Deixe que a positividade te envolva e que a paz te acompanhe.",
         "{nome}, antes de dormir, reflita sobre o seu dia. Identifique o que pode ser melhorado e aprenda com os seus erros.",
         "Lembre-se de seus sonhos, {nome}, mas não se esqueça da realidade. Mantenha os pés no chão.",
         "Evite se envolver em conversas negativas, {nome}. Deixe que a positividade te envolva."
@@ -51,13 +55,11 @@ const mensagens = {
     todos: [
         "{nome}, seja gentil com as palavras e com as ações. O respeito é fundamental para uma vida harmoniosa.",
         "A paciência é uma virtude, {nome}. Não se deixe levar pela raiva ou pela impaciência.",
-        "{nome}, não tenha medo de dizer não quando for preciso. Você não precisa agradar a todos.", "{nome}, seja gentil com as palavras e com as ações. O respeito é fundamental para uma vida harmoniosa.",
-        "A paciência é uma virtude, {nome}. Não se deixe levar pela raiva ou pela impaciência.",
         "{nome}, não tenha medo de dizer não quando for preciso. Você não precisa agradar a todos.",
-        "{nome}, a prática leva à perfeição. Não desista dos seus objetivos, mesmo que os desafios pareçam grandes."
+        "{nome}, a prática leva à perfeição. Não desista dos seus objetivos, mesmo que os desafios pareçam grandes.",
+        "{nome}, se precisar de ajuda, não hesite em pedir. Você não está sozinho!"
     ]
 };
-
 // Função para gerar mensagem personalizada
 function gerarMensagem() {
     const mensagensPeriodo = mensagens[periodoEscolhido];
