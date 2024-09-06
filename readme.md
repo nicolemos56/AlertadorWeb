@@ -6,8 +6,9 @@ JÁ IMAGINOU? Numa sexta-feira um app que te mande uma notificação com o texto
 
 ISSO MESMO!
 
-Alertador Web é um aplicativo web simples que exibe mensagens de alerta personalizadas para o usuário. Ele permite que o usuário configure seu nome e o período do dia em que deseja receber os alertas. As mensagens são exibidas na tela.
+Alertador Web é um aplicativo web simples que exibe mensagens de alerta personalizadas para o usuário. Ele permite que o usuário configure seu nome e o período do dia em que deseja receber os alertas.
 
+Frases sobre cuidado e alertas enfatizam a importância de prestar atenção ao que dizemos e fazemos. É crucial ouvir os sinais e intuções, pois algumas coisas precisam ser eliminadas de nossas vidas para promover nosso bem-estar...
 ## Recursos
 
 * Gera mensagens de alerta personalizadas.
