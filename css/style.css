@@ -98,3 +98,21 @@ button#salvar {
       opacity: 1; /* Opacidade total no final da animação */
     }
   }
+
+footer {
+  background-color: #00b3ab00; /* Cor de fundo do footer */
+  color: #fff; /* Cor do texto do footer */
+  text-align: center;
+  padding: 15px 0;
+  position: fixed; /* Fixa o footer na parte inferior da tela */
+  bottom: 0; /* Posiciona o footer na parte inferior */
+  width: 100%; /* Largura total da tela */
+ position: relative; /* Retire a propriedade 'fixed' */
+  bottom: 0; /* Retire a propriedade 'bottom' */
+  padding-bottom: 20px; /* Adicione um padding-bottom ao footer */
+  margin-top: 20px; /* Adicione uma margem superior ao footer */
+}
+footer > p {
+  margin-top: 27px;
+}
+
