@@ -18,6 +18,9 @@ Alertador Web é um aplicativo web simples que exibe mensagens de alerta persona
 4. Clique em "Alerta-me".
 5. A mensagem de alerta será exibida na tela.
 
+## Como acessar
+* link: https://master--alertame.netlify.app/
+
 ## Tecnologias
 
 * HTML
